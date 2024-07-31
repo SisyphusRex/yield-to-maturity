@@ -10,3 +10,10 @@ I previous performed the calculus on the Yield to Maturity formula and tested it
 This venture is to rewrite the algorithm in Python and make a program that will solve for any variable given the others.
 
 The  attached Excel and Word files are my original work from 2019.
+
+This is my original email:
+Do you remember that complex financial equation I had?  It concerns the valuation of a bond taking into account the time value of money.  I could not calculate the the value of r given all other variables because I could not isolate r algebraically.  I could estimate r by plugging in different values until the output was very close to the expected value, but that seemed arbitrary and time consuming.  Microsoft Excel and financial calculators can approximate r automatically but their methods are hidden.
+
+After scouring the internet, I discovered some complex methods of approximation including Newton's Method.  Newton's Method is used for approximating the zeroes of a function, but I adapted it to suit my needs by a simple subtraction.  It does so by calculating the x-intercept of the tangent line of an initial (arbitrary) point on the function, and then calculates the x-intercept of the tangent line of the point identified on the function from the previous tangent line.  Each successive calculation, or iteration, is more accurate and closer to the actual zero of the function.  The values converge on the actual value.  The basic algorithm looks like this:  
+image.png
+Now that I know how to differentiate, I was able to find the derivative of my complex equation and create my own algorithm!  There is much calculation just for one iteration so I ported the equation to Excel and copied it for each iteration.  I compared my results to Excel's built in financial tools and I believe my approximation is more accurate!  From my perspective, this is the first time anyone has applied Newton's Method to Bond Valuation and Yield to Maturity.  I am keen to learn, though, what algorithm Excel uses and why it truncates or rounds after a certain amount of digits.
