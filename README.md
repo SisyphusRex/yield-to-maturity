@@ -21,11 +21,11 @@ Now that I know how to differentiate, I was able to find the derivative of my co
 
 Yield to Maturity equation:
 $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
-P: present value of the bond; market price
-C: annual interest payment to investor
-N: number of years until the bond matures
-M: maturity value of the bond; par value
-r: rate of return; yield to maturity; annual rate of return from fixed interest security at a given price, P, and held until maturity
+* P: present value of the bond; market price
+* C: annual interest payment to investor
+* N: number of years until the bond matures
+* M: maturity value of the bond; par value
+* r: rate of return; yield to maturity; annual rate of return from fixed interest security at a given price, P, and held until maturity
 
 Newton's Method:
 $x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$
