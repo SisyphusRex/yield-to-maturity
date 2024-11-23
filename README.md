@@ -22,4 +22,4 @@ Now that I know how to differentiate, I was able to find the derivative of my co
 Yield to Maturity equation:
 $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 
-$r_{n+1} = r_n - \frac{C * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}{C * rN1+r-N-1+1+r-N-1r2 + -MN(1+r)N-1(1+r)2N}$
+$r_{n+1} = r_n - \frac{C * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}{C * \frac{rN{(1+r)}^{-(N-1)} + {(1+r)}^{-N}-1}{r^2} + \frac{-MN{(1+r)}^{N-1}{{(1+r)}^{2N}}}$
