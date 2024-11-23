@@ -20,4 +20,4 @@ Now that I know how to differentiate, I was able to find the derivative of my co
 
 
 Yield to Maturity equation:
-$P = C \ast \frac{1 - {1 + r}^{-N}}{r} + \frac{M}{{1 + r}^N}$
+$P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
