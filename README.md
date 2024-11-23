@@ -21,6 +21,11 @@ Now that I know how to differentiate, I was able to find the derivative of my co
 
 Yield to Maturity equation:
 $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
+P: present value of the bond; market price
+C: annual interest payment to investor
+N: number of years until the bond matures
+M: maturity value of the bond; par value
+r: rate of return; yield to maturity; annual rate of return from fixed interest security at a given price, P, and held until maturity
 
 Newton's Method:
 $x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$
@@ -28,3 +33,7 @@ $x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$
 
 Newton's Method on Yield to Maturity with respect to r:
 $r_{n+1} = r_n - \frac{C * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}{C * \frac{rN{(1+r)}^{-(N-1)} + {(1+r)}^{-N}-1}{r^2} + \frac{-MN{(1+r)}^{N-1}}{{(1+r)}^{2N}}}$
+
+Newton's Method, or Newton-Raphson method, is a root-finding algorithm for finding the roots, or zeroes, of a function where f(x) = 0.  You start with an initial guess of x, calculate the tangent line of the function at x, then find the x intercept of the tangent line.  Then you calculate the tangent line of the function at the x intercept.  This is repeated and the more you repeat the process, the closer x becomes to the root.
+
+We are substituting the rate of return, r, for x.  Given the values of all other variables, the root of the function will be the rate of return, r.
