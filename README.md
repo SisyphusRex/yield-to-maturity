@@ -23,7 +23,7 @@ Yield to Maturity equation:
 $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 
 Newton's Method:
-$x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}
+$x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$
 
 
 Newton's Method on Yield to Maturity with respect to r:
