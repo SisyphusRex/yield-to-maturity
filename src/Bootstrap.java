@@ -1,4 +1,4 @@
-package yield2maturity;
+package yield2maturity.src;
 // Bootstrap file for running program
 
 //System Imports

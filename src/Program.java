@@ -1,4 +1,4 @@
-package yield2maturity;
+package yield2maturity.src;
 
 //main program file
 

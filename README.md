@@ -37,3 +37,13 @@ $r_{n+1} = r_n - \frac{C * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}
 Newton's Method, or Newton-Raphson method, is a root-finding algorithm for finding the roots, or zeroes, of a function where f(x) = 0.  You start with an initial guess of x, calculate the tangent line of the function at x, then find the x intercept of the tangent line.  Then you calculate the tangent line of the function at the x intercept.  This is repeated and the more you repeat the process, the closer x becomes to the root.
 
 We are substituting the rate of return, r, for x.  Given the values of all other variables, the root of the function will be the rate of return, r.
+
+
+NOTE: I want this program to be a Yield To Maturity equation solver.  The user will pick a variable to solve for, provide values for the other variables, and my program will solve for that variable.  Most variables will be solved algebraically, but r must be solved using Newton's method.
+
+
+* Compile
+    1. move to above root directory
+    2. javac -d yield2maturity/bin yield2maturity/src/*.java
+* Run
+    1. java -cp yield2maturity/bin yield2maturity.src.Bootstrap
