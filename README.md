@@ -45,6 +45,11 @@ Outside Resources:
 1. https://www.omnicalculator.com/finance/yield-to-maturity
    * scroll down to Calculate the bond YTM, alternate YTM equation
    * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}}$
+2. https://dqydj.com/bond-yield-to-maturity-calculator/
+   * another calculator, also uses Sigma notation
+   * mentions secant method, rather than tangent method
+   * copies code from ndongo
+      * https://github.com/ndongo/Excel-Financial-functions/blob/master/financialfunctions/src/fr/ndongo/financialfunctions/model/Simulation.java
 
 
 * Compile
