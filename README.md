@@ -53,6 +53,9 @@ Outside Resources:
 3. https://www.inchcalculator.com/yield-to-maturity-calculator/
    * provides an YTM approximation equation
    * $r = \frac{C + \frac{M - P}{N}}{\frac{M + P}{2}}$
+4. https://thismatter.com/money/bonds/bond-formulas.htm#google_vignette
+   * shows different representations of Bond valuation formula
+   * noticeably missing is my formula
 
 
 * Compile
