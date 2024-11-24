@@ -56,6 +56,10 @@ Outside Resources:
 4. https://thismatter.com/money/bonds/bond-formulas.htm#google_vignette
    * shows different representations of Bond valuation formula
    * noticeably missing is my formula
+5. https://www.scranton.edu/faculty/hussain/teaching/mba503c/MBA503C03.pdf
+   * page 37
+   * shows how one gets from sigma notation to full equation
+   * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} + \frac{M}{{(1 + r)}^{N}}$
 
 
 * Compile
