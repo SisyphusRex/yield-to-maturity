@@ -50,6 +50,9 @@ Outside Resources:
    * mentions secant method, rather than tangent method
    * copies code from ndongo
       * https://github.com/ndongo/Excel-Financial-functions/blob/master/financialfunctions/src/fr/ndongo/financialfunctions/model/Simulation.java
+3. https://www.inchcalculator.com/yield-to-maturity-calculator/
+   * provides an YTM approximation equation
+   * $r = \frac{C + \frac{M - P}{N}}{\frac{M + P}{2}}$
 
 
 * Compile
