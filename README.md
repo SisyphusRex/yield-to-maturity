@@ -61,6 +61,7 @@ Outside Resources:
    * shows how one gets from sigma notation to full equation
    * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} + \frac{M}{{(1 + r)}^{N}}$
    * $\sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} = C * \frac{1 - {(1 + r)}^{-n}}{r}$
+   * $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 
 
 * Compile
