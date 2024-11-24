@@ -41,6 +41,11 @@ We are substituting the rate of return, r, for x.  Given the values of all other
 
 NOTE: I want this program to be a Yield To Maturity equation solver.  The user will pick a variable to solve for, provide values for the other variables, and my program will solve for that variable.  Most variables will be solved algebraically, but r must be solved using Newton's method.
 
+Outside Resources:
+1. https://www.omnicalculator.com/finance/yield-to-maturity
+   * scroll down to Calculate the bond YTM, alternate YTM equation
+   * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}}$
+
 
 * Compile
     1. move to above root directory
