@@ -43,6 +43,28 @@ NOTE: I want this program to be a Yield To Maturity equation solver.  The user w
 
 NOTE: I've changed the programming language to Python.  I want to practice using a GUI and this is a good opportunity.
 
+Outside Resources:
+1. https://www.omnicalculator.com/finance/yield-to-maturity
+   * scroll down to Calculate the bond YTM, alternate YTM equation
+   * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}}$
+2. https://dqydj.com/bond-yield-to-maturity-calculator/
+   * another calculator, also uses Sigma notation
+   * mentions secant method, rather than tangent method
+   * copies code from ndongo
+      * https://github.com/ndongo/Excel-Financial-functions/blob/master/financialfunctions/src/fr/ndongo/financialfunctions/model/Simulation.java
+3. https://www.inchcalculator.com/yield-to-maturity-calculator/
+   * provides an YTM approximation equation
+   * $r = \frac{C + \frac{M - P}{N}}{\frac{M + P}{2}}$
+4. https://thismatter.com/money/bonds/bond-formulas.htm#google_vignette
+   * shows different representations of Bond valuation formula
+   * noticeably missing is my formula
+5. https://www.scranton.edu/faculty/hussain/teaching/mba503c/MBA503C03.pdf
+   * page 37
+   * shows how one gets from sigma notation to full equation
+   * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} + \frac{M}{{(1 + r)}^{N}}$
+   * $\sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} = C * \frac{1 - {(1 + r)}^{-n}}{r}$
+   * $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
+
 
 * Compile
     1. move to above root directory
