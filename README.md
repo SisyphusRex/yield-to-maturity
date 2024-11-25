@@ -41,7 +41,7 @@ We are substituting the rate of return, r, for x.  Given the values of all other
 
 NOTE: I want this program to be a Yield To Maturity equation solver.  The user will pick a variable to solve for, provide values for the other variables, and my program will solve for that variable.  Most variables will be solved algebraically, but r must be solved using Newton's method.
 
-NOTE: I've changed the programming language to Python.  I want to practice using a GUI and this is a good opportunity.
+NOTE: I've changed the programming language to Python.  I want to practice using a GUI and this is a good opportunity.  I will be using FreeSimpleGUI, the free version of PySimpleGUI.
 
 Outside Resources:
 1. https://www.omnicalculator.com/finance/yield-to-maturity
