@@ -1,5 +1,5 @@
 This is a work in progress.
-
+# Premise
 Years ago, in a Finance class, I came upon the Yield to Maturity formula for a bond.  I could solve for all variables using
 algebra except one: interest (r).
 
@@ -18,7 +18,7 @@ After scouring the internet, I discovered some complex methods of approximation 
 image.png
 Now that I know how to differentiate, I was able to find the derivative of my complex equation and create my own algorithm!  There is much calculation just for one iteration so I ported the equation to Excel and copied it for each iteration.  I compared my results to Excel's built in financial tools and I believe my approximation is more accurate!  From my perspective, this is the first time anyone has applied Newton's Method to Bond Valuation and Yield to Maturity.  I am keen to learn, though, what algorithm Excel uses and why it truncates or rounds after a certain amount of digits.
 
-
+# Math
 Yield to Maturity equation:
 $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 * P: present value of the bond; market price
@@ -43,7 +43,7 @@ NOTE: I want this program to be a Yield To Maturity equation solver.  The user w
 
 NOTE: I've changed the programming language to Python.  I want to practice using a GUI and this is a good opportunity.  I will be using FreeSimpleGUI, the free version of PySimpleGUI.
 
-Outside Resources:
+# Outside Resources:
 1. https://www.omnicalculator.com/finance/yield-to-maturity
    * scroll down to Calculate the bond YTM, alternate YTM equation
    * $P = \sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}}$
@@ -65,7 +65,7 @@ Outside Resources:
    * $\sum_{i=1}^{N} \frac{C}{{(1+r)}^{i}} = C * \frac{1 - {(1 + r)}^{-n}}{r}$
    * $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 
-
+# Tips
 * Compile
     1. move to above root directory
     2. javac -d yield2maturity/bin yield2maturity/src/*.java
