@@ -66,8 +66,4 @@ NOTE: I've changed the programming language to Python.  I want to practice using
    * $P = C \ast \frac{1 - {(1 + r)}^{-N}}{r} + \frac{M}{{(1 + r)}^N}$
 
 # Tips
-* Compile
-    1. move to above root directory
-    2. javac -d yield2maturity/bin yield2maturity/src/*.java
-* Run
-    1. java -cp yield2maturity/bin yield2maturity.src.Bootstrap
+
