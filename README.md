@@ -67,6 +67,10 @@ NOTE: I've changed the programming language to Python.  I want to practice using
 
 # Tips
 
+# Errors
+1. ModuleNotFoundError: No module named 'TKINTER'
+   * ```sudo apt-get install python3-tk```
+
 
 _____________________________________________________________________________________
 Copyright 2025 Theodore Podewil  
