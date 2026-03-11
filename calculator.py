@@ -22,6 +22,11 @@ class Calculator:
         self, coupon_rate: float, years: float, par_value: float, ytm: float
     ) -> float:
         """method to solve for present value"""
+        print("Solving for present value.")
+        print(f"coupon rate: {coupon_rate}")
+        print(f"years: {years}")
+        print(f"par_value: {par_value}")
+        print(f"ytm: {ytm}")
         present_value: float = coupon_rate * ((1 - (1 + ytm) ** (-1 * years)) / ytm) + (
             par_value / ((1 + ytm) ** years)
         )
@@ -31,6 +36,11 @@ class Calculator:
         self, present_value: float, years: float, par_value: float, ytm: float
     ) -> float:
         """method to solve for coupon_rate"""
+        print("Solving for coupon rate.")
+        print(f"present value: {present_value}")
+        print(f"years: {years}")
+        print(f"par_value: {par_value}")
+        print(f"ytm: {ytm}")
         coupon_rate = (
             ytm * present_value * ((1 + ytm) ** years) - (par_value * ytm)
         ) / ((1 - ((1 + ytm) ** (-1 * years))) * ((1 + ytm) ** years))
@@ -40,6 +50,11 @@ class Calculator:
         self, present_value: float, coupon_rate: float, par_value: float, ytm: float
     ) -> float:
         """method to solve for years"""
+        print("Solving for years.")
+        print(f"present value: {present_value}")
+        print(f"coupon rate: {coupon_rate}")
+        print(f"par_value: {par_value}")
+        print(f"ytm: {ytm}")
         years: float = -(
             math.log(
                 (present_value * ytm - coupon_rate) / (-coupon_rate + par_value * ytm)
@@ -52,6 +67,11 @@ class Calculator:
         self, present_value: float, coupon_rate: float, years: float, ytm: float
     ) -> float:
         """method to solve for par value"""
+        print("Solving for par value.")
+        print(f"present value: {present_value}")
+        print(f"coupon rate: {coupon_rate}")
+        print(f"years: {years}")
+        print(f"ytm: {ytm}")
         par_value: float = present_value * ((1 + ytm) ** years) - (
             (coupon_rate * (1 - (1 + ytm) ** (-1 * years)) * (1 + ytm) ** years) / ytm
         )
@@ -61,3 +81,4 @@ class Calculator:
         self, present_value: float, coupon_rate: float, years: float, par_value: float
     ) -> float:
         """method to solve for yield to maturity"""
+        ...
