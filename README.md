@@ -33,7 +33,7 @@ $x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}$
 
 
 Newton's Method on Yield to Maturity with respect to r:
-$r_{n+1} = r_n - \frac{C * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}{C * \frac{rN{(1+r)}^{-(N-1)} + {(1+r)}^{-N}-1}{r^2} + \frac{-MN{(1+r)}^{N-1}}{{(1+r)}^{2N}}}$
+$r_{n+1} = r_n - \frac{I * \frac{1 - {(1+r)}^{-N}}{r} + \frac{M}{{(1+r)}^N} - P}{I * \frac{rN{(1+r)}^{-(N-1)} + {(1+r)}^{-N}-1}{r^2} + \frac{-MN{(1+r)}^{N-1}}{{(1+r)}^{2N}}}$
 
 Newton's Method, or Newton-Raphson method, is a root-finding algorithm for finding the roots, or zeroes, of a function where f(x) = 0.  You start with an initial guess of x, calculate the tangent line of the function at x, then find the x intercept of the tangent line.  Then you calculate the tangent line of the function at the x intercept.  This is repeated and the more you repeat the process, the closer x becomes to the root.
 
